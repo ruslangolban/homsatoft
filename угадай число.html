@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	function randomInteger(min, max) {
+  let rand = min + Math.random() * (max - min);
+  return a =Math.round(rand);// а  - это загаданное число
+} randomInteger(1, 100)
+
+//alert( a );
+var b
+var i = 0 // номер попытки
+var c = 7 // число попыток всего
+var x = 7
+do {b = +prompt("Введите число от 1 до 100"); i++; x = c - i;
+	if (x == 0){
+		alert (" Вы не угадали((((")
+		}else if (b > a){ 
+		 alert("Ваше число больше загаданного" + "\nУ Вас осталось попыток    " + x)
+		 } else if (b < a){
+		 	alert("Ваше число меньше загаданного" + "\nУ Вас осталось попыток  " + x)
+		 } else if (a = b) {
+		 	alert ("ВЫ победили");
+		 	break;
+		 } 
+		 	
+} while (i < c)
+
+</script>
