@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+var a //сумма вклада
+var b // процент по вкладу
+var c  // время вклада в годах
+var sum //сумма 
+a = +prompt("Введите сумму вклада")
+b = +prompt("Введите процент по вкладу")
+c = +prompt("Введите время вклада в годах")
+document.write("Сумма вклада = " + a + "<br>")
+document.write("Процент по вкладу = " + b + "<br>")
+document.write("Время вклада в годах = " + c + "<br>")
+for( i = 1; i <= c ; i++){
+sum = a / 100 * b + a
+a = sum 
+document.write("Сумма  за  " + i + "  год = " + sum.toFixed(2) + "<br>")
+}
+
+</script>
