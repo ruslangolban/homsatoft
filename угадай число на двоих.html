@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	function randomInteger(min, max) {
+  let rand = min + Math.random() * (max - min);
+  return a =Math.round(rand);// а  - это загаданное число
+} randomInteger(1, 100)
+
+//alert( a );
+var b
+var x = 1
+do {b = +prompt("Игрок 1 введите число от 1 до 100"); 
+	if (b > a){ 
+	alert("Игрок 1, Ваше число больше загаданного")
+		 } else if (b < a){
+		 	alert("Игрок 1, Ваше число меньше загаданного")
+		 } else if (a = b) {
+		 	alert ("Игрок 1, ВЫ победили");
+		 	break;
+		 } 
+b = +prompt("Игрок 2 введите число от 1 до 100"); 
+	if (b > a){
+	alert("Игрок 2, Ваше число больше загаданного")
+		 } else if (b < a){
+		 	alert("Игрок 2, Ваше число меньше загаданного")
+		 } else if (a = b) {
+		 	alert ("Игрок 2, ВЫ победили");
+		 	break;
+		 } x = x + 1
+		 	
+} while (x > 0)
+
+
+
+</script>
